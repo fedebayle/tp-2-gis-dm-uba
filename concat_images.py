@@ -1,7 +1,7 @@
 import subprocess
 import glob
 import os
-tile = '0000000000-0000010496'
+tile = '0000000000-0000012544'
 images_ndvi = sorted(glob.glob(
     '/home/gis_dm_2021/tp-2/images/s2full/aoi/**/{tile}_ndvi.tif'.format(tile=tile)))
 images_ndvi_otb = ' '.join(images_ndvi)
